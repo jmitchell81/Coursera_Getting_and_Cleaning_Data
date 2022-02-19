@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.httr-oauth
+week1/
+week2/
+week3/
+week4/
+sharedData/
+PeerProject/
+UCI\ HAR\ Dataset/
+example.h5
