@@ -102,7 +102,7 @@ dfmelt <- melt(merge_dataset, id = data_id,
 data_summary <- dcast(dfmelt, subject+dataset+activity~data_vars, mean)
 
 # save tidy dataset
-write.table(data_summary, file = "tidy_Dataset.txt")
+write.table(data_summary, file = "tidy_Dataset.txt", row.names = FALSE)
 
 # save variable names
 write.table(colnames(data_summary), file = "variables.txt")
