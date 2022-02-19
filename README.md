@@ -55,7 +55,7 @@ coded activity names with their corresponding full names.
 
 The data is first melted into a tall dataframe with the three id variables 
 ("dataset", "subject", "activity") and all other variables treated as measurement
-variables. The data is then recast with the model "subject+dataset+activity~data_vars"
+variables. The data is then recast with the model "subject+dataset+activity\~data_vars"
 so that the mean for each activity for each subject is calculcated. Because there
 are no subjects belonging to both datasets, the output is the same as using the
 model "subject+activity~data_vars"
