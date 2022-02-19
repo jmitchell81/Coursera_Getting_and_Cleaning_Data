@@ -1,5 +1,14 @@
 # Submission for Getting and Cleaning Data Assignment
 
+## Description
+
+This script takes the smartphone wearable techonology measurements, combines the
+training and testing data sets into one dataframe with tidy identifiers for the
+subject being measure, the activity taking place, and the subject's assignment
+to the training or testing datasets. This combined dataframe is then used to calculate
+the average values of each mean and standard deviation measurement for each activity
+for each subject.
+
 ## Before running the script
 
 Be sure you have the unzipped "UCI HAR Dataset" file stored in your working directory
